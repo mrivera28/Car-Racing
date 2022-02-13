@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class ControladorCoche : MonoBehaviour {
 
@@ -9,7 +10,11 @@ public class ControladorCoche : MonoBehaviour {
 	public float anguloDeGiro;
 	float factor = 3;
 
-	
+	void Start()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
+
 	// UTILIZO FIXUPDATE estoy moviendo un componente rigidbody que choca con autos rigidos
 	void FixedUpdate()
 	{
@@ -42,6 +47,8 @@ public class ControladorCoche : MonoBehaviour {
 	{
 		Coche.transform.position = new Vector3(0f,-2.4f,0f);
 	}
+
+
 }
 
 

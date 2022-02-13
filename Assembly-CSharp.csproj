@@ -59,6 +59,7 @@
      <Compile Include="Assets\Scripts\ControladorCoche.cs" />
      <Compile Include="Assets\Scripts\Cronometro.cs" />
      <Compile Include="Assets\Scripts\CuentaAtras.cs" />
+     <Compile Include="Assets\Scripts\Enlace.cs" />
      <Compile Include="Assets\Scripts\Fundidos.cs" />
      <Compile Include="Assets\Scripts\LimiteCarreteras.cs" />
      <Compile Include="Assets\Scripts\MotorCarreteras.cs" />
